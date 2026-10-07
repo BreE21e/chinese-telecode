@@ -150,14 +150,4 @@ python -m unittest discover -s tests -v
 
 测试覆盖已知转换、整张码表往返、无效输入、UTF-8 BOM 文件、管道输入、交互菜单和错误退出码。
 
-## 上传到 GitHub
-
-建议仓库名：`chinese-telecode`。
-
-建议仓库描述：`离线中文电码双向转换工具，支持命令行、交互菜单和文本文件，适合 CTF 初学者。`
-
-在 GitHub 新建仓库，选择 **Add file → Upload files**，上传解压后的项目文件和 `tests` 文件夹，再点击 **Commit changes**。上传项目内容，方便 GitHub 直接展示 README 和源代码。
-
-## 数据来源
-
 码表参考 [千千秀字：1983 年《标准电码本（修订本）》](https://www.qqxiuzi.cn/bianma/dianbao.html)。详细来源和未收录项目见 `DATA_SOURCE.md`。
